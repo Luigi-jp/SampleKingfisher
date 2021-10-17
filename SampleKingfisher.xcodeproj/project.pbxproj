@@ -13,9 +13,13 @@
 		2A07C12C271BF04B00774DBC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A07C12A271BF04B00774DBC /* Main.storyboard */; };
 		2A07C12E271BF04D00774DBC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A07C12D271BF04D00774DBC /* Assets.xcassets */; };
 		2A07C131271BF04D00774DBC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A07C12F271BF04D00774DBC /* LaunchScreen.storyboard */; };
+		2A07C139271BFFC500774DBC /* SimpleUseCase.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A07C138271BFFC500774DBC /* SimpleUseCase.storyboard */; };
+		2A07C13B271BFFEA00774DBC /* SimpleUseCaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A07C13A271BFFEA00774DBC /* SimpleUseCaseViewController.swift */; };
+		C2387ACCEFD3108BD8A8FF5B /* Pods_SampleKingfisher.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C0B0C284B6582DE3FE30136 /* Pods_SampleKingfisher.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		01E843F9B6A7A1CBC891D27E /* Pods-SampleKingfisher.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKingfisher.debug.xcconfig"; path = "Target Support Files/Pods-SampleKingfisher/Pods-SampleKingfisher.debug.xcconfig"; sourceTree = "<group>"; };
 		2A07C121271BF04B00774DBC /* SampleKingfisher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleKingfisher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A07C124271BF04B00774DBC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A07C126271BF04B00774DBC /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +28,10 @@
 		2A07C12D271BF04D00774DBC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A07C130271BF04D00774DBC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2A07C132271BF04D00774DBC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A07C138271BFFC500774DBC /* SimpleUseCase.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = SimpleUseCase.storyboard; sourceTree = "<group>"; };
+		2A07C13A271BFFEA00774DBC /* SimpleUseCaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleUseCaseViewController.swift; sourceTree = "<group>"; };
+		2FAFD99A0FD71CE66657B5E1 /* Pods-SampleKingfisher.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SampleKingfisher.release.xcconfig"; path = "Target Support Files/Pods-SampleKingfisher/Pods-SampleKingfisher.release.xcconfig"; sourceTree = "<group>"; };
+		3C0B0C284B6582DE3FE30136 /* Pods_SampleKingfisher.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SampleKingfisher.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +39,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C2387ACCEFD3108BD8A8FF5B /* Pods_SampleKingfisher.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +51,8 @@
 			children = (
 				2A07C123271BF04B00774DBC /* SampleKingfisher */,
 				2A07C122271BF04B00774DBC /* Products */,
+				618702B72248B42FF96CD99B /* Pods */,
+				7A11277FEE0F5983CDC488FE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,11 +71,38 @@
 				2A07C126271BF04B00774DBC /* SceneDelegate.swift */,
 				2A07C128271BF04B00774DBC /* ViewController.swift */,
 				2A07C12A271BF04B00774DBC /* Main.storyboard */,
+				2A07C13C271C008800774DBC /* SimpleUseCase */,
 				2A07C12D271BF04D00774DBC /* Assets.xcassets */,
 				2A07C12F271BF04D00774DBC /* LaunchScreen.storyboard */,
 				2A07C132271BF04D00774DBC /* Info.plist */,
 			);
 			path = SampleKingfisher;
+			sourceTree = "<group>";
+		};
+		2A07C13C271C008800774DBC /* SimpleUseCase */ = {
+			isa = PBXGroup;
+			children = (
+				2A07C138271BFFC500774DBC /* SimpleUseCase.storyboard */,
+				2A07C13A271BFFEA00774DBC /* SimpleUseCaseViewController.swift */,
+			);
+			name = SimpleUseCase;
+			sourceTree = "<group>";
+		};
+		618702B72248B42FF96CD99B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				01E843F9B6A7A1CBC891D27E /* Pods-SampleKingfisher.debug.xcconfig */,
+				2FAFD99A0FD71CE66657B5E1 /* Pods-SampleKingfisher.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		7A11277FEE0F5983CDC488FE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C0B0C284B6582DE3FE30136 /* Pods_SampleKingfisher.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +112,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2A07C135271BF04D00774DBC /* Build configuration list for PBXNativeTarget "SampleKingfisher" */;
 			buildPhases = (
+				730BB33707083136C1652D69 /* [CP] Check Pods Manifest.lock */,
 				2A07C11D271BF04B00774DBC /* Sources */,
 				2A07C11E271BF04B00774DBC /* Frameworks */,
 				2A07C11F271BF04B00774DBC /* Resources */,
+				02C7538EDE811C33EE5A3BA0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,11 +167,54 @@
 			files = (
 				2A07C131271BF04D00774DBC /* LaunchScreen.storyboard in Resources */,
 				2A07C12E271BF04D00774DBC /* Assets.xcassets in Resources */,
+				2A07C139271BFFC500774DBC /* SimpleUseCase.storyboard in Resources */,
 				2A07C12C271BF04B00774DBC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02C7538EDE811C33EE5A3BA0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleKingfisher/Pods-SampleKingfisher-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SampleKingfisher/Pods-SampleKingfisher-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SampleKingfisher/Pods-SampleKingfisher-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		730BB33707083136C1652D69 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SampleKingfisher-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2A07C11D271BF04B00774DBC /* Sources */ = {
@@ -140,6 +223,7 @@
 			files = (
 				2A07C129271BF04B00774DBC /* ViewController.swift in Sources */,
 				2A07C125271BF04B00774DBC /* AppDelegate.swift in Sources */,
+				2A07C13B271BFFEA00774DBC /* SimpleUseCaseViewController.swift in Sources */,
 				2A07C127271BF04B00774DBC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -217,7 +301,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -272,7 +356,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +368,7 @@
 		};
 		2A07C136271BF04D00774DBC /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 01E843F9B6A7A1CBC891D27E /* Pods-SampleKingfisher.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -297,6 +382,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,6 +398,7 @@
 		};
 		2A07C137271BF04D00774DBC /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2FAFD99A0FD71CE66657B5E1 /* Pods-SampleKingfisher.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -325,6 +412,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
